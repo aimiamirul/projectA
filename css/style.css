@@ -1,0 +1,63 @@
+/* font-family: 'Comforter Brush', cursive; */
+
+@import url(var.css);
+
+.main .main-menu .navbar .navbar-brand {
+ padding: 0 2rem 0 5 rem;
+}
+.main .main-menu .navbar {
+    padding: 1rem 20rem;
+}
+
+.main .main-menu .nav-item .nav-link {
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+.main .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+ 
+.main .main-menu .navbar-nav .active a:hover {
+    background: var(-gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.site-banner .container .row .site-title h3{
+    font-weight: 500;
+}
+.site-banner .container .row .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: O black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.site-banner .site-title h1{
+    font-size: 5rem;
+}
+.site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+  .title-text{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.test {
+    color: red;
+}
+.site-banner .container .row .col-lg-6.col-md-12.site-title img.img{
+  padding-left: 500px;
+  display: inline-block;
+  position: absolute;
+  float: inline-end;
+}
